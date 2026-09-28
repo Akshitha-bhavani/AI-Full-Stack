@@ -1,0 +1,12 @@
+When any streamlit program is not running then use this command: python -m streamlit run "filename".py
+
+Normally, the command is : streamlit run 'filename'.py
+
+And here, the st.success is used to display the message in it in green color form 
+
+pip install chromadb
+pip install sentence_transformers
+python -c "from sentence_transformers import SentenceTransformer; model = SentenceTransformer('all-MiniLM-L6-v2'); print('Model is available and loaded successfully')"
+After installing the first two commands, To check if it is downloaded:
+pip show chromadb
+pip show sentence_transformers
